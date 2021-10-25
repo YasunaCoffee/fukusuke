@@ -1,21 +1,14 @@
-!!!
-/
-  Spectral by HTML5 UP
-  html5up.net | @ajlkn
-  Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 %html
   %head
     %meta{:content => "text/html; charset=UTF-8", "http-equiv" => "Content-Type"}/
     %title Spectral by HTML5 UP
     %meta{:charset => "utf-8"}/
     %meta{:content => "width=device-width, initial-scale=1, user-scalable=no", :name => "viewport"}/
-    %link{:href => "assets/css/main.css", :rel => "stylesheet"}/
+    %link{:href => "assets/stylesheets/main.scss", :rel => "stylesheet"}/
     %noscript
-      %link{:href => "assets/css/noscript.css", :rel => "stylesheet"}/
+      %link{:href => "assets/stylesheets/noscript.scss", :rel => "stylesheet"}/
   %body.landing.is-preload
-    / Page Wrapper
     #page-wrapper
-      / Header
       %header#header.alt
         %h1
           %a{:href => "index.html"} Spectral
@@ -36,7 +29,6 @@
                     %a{:href => "#"} Sign Up
                   %li
                     %a{:href => "#"} Log In
-      / Banner
       %section#banner
         .inner
           %h2 Spectral
@@ -52,7 +44,6 @@
             %li
               %a.button.primary{:href => "#"} Activate
         %a.more.scrolly{:href => "#one"} Learn More
-      / One
       %section#one.wrapper.style1.special
         .inner
           %header.major
@@ -78,7 +69,7 @@
       %section#two.wrapper.alt.style2
         %section.spotlight
           .image
-            %img{:alt => "", :src => "images/pic01.jpg"}/
+            %img{:alt => "", :src => "assets/images/pic01.jpg"}/
           .content
             %h2
               Magna primis lobortis
@@ -160,37 +151,3 @@
               %a.button.fit.primary{:href => "#"} Activate
             %li
               %a.button.fit{:href => "#"} Learn More
-      / Footer
-      %footer#footer
-        %ul.icons
-          %li
-            %a.icon.brands.fa-twitter{:href => "#"}
-              %span.label Twitter
-          %li
-            %a.icon.brands.fa-facebook-f{:href => "#"}
-              %span.label Facebook
-          %li
-            %a.icon.brands.fa-instagram{:href => "#"}
-              %span.label Instagram
-          %li
-            %a.icon.brands.fa-dribbble{:href => "#"}
-              %span.label Dribbble
-          %li
-            %a.icon.solid.fa-envelope{:href => "#"}
-              %span.label Email
-        %ul.copyright
-          %li © Untitled
-          %li
-            Design:
-            %a{:href => "http://html5up.net"} HTML5 UP
-          %li
-            Distributed by:
-            %a{:href => "https://themewagon.com"} ThemeWagon
-    / Scripts
-    %script{:src => "assets/js/jquery.min.js"}
-    %script{:src => "assets/js/jquery.scrollex.min.js"}
-    %script{:src => "assets/js/jquery.scrolly.min.js"}
-    %script{:src => "assets/js/browser.min.js"}
-    %script{:src => "assets/js/breakpoints.min.js"}
-    %script{:src => "assets/js/util.js"}
-    %script{:src => "assets/js/main.js"}
