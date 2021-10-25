@@ -55,3 +55,4 @@ gem 'pry-rails'
 
 gem 'bootstrap', '~> 5.0.0.beta1'
 gem 'haml-rails', '~> 2.0', '>= 2.0.1'
+gem 'font-awesome-sass'
