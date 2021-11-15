@@ -1,0 +1,113 @@
+%html
+  %head
+    %meta{:content => "text/html; charset=UTF-8", "http-equiv" => "Content-Type"}/
+    %title Elements - Spectral by HTML5 UP
+    %meta{:charset => "utf-8"}/
+    %meta{:content => "width=device-width, initial-scale=1, user-scalable=no", :name => "viewport"}/
+    %link{:href => "assets/css/main.css", :rel => "stylesheet"}/
+    %noscript
+      %link{:href => "assets/css/noscript.css", :rel => "stylesheet"}/
+  %body.is-preload
+    / Page Wrapper
+    #page-wrapper
+      / Header
+      %header#header
+        %h1
+          %a{:href => "index.html"} Fukusuke Coffee
+        %nav#nav
+          %ul
+            %li.special
+              %a.menuToggle{:href => "#menu"}
+                %span Menu
+              #menu
+                %ul
+                  %li
+                    %a{:href => "index.html"} Home
+                  %li
+                    %a{:href => "generic.html"} Generic
+                  %li
+                    %a{:href => "elements.html"} Elements
+                  %li
+                    %a{:href => "#"} Sign Up
+                  %li
+                    %a{:href => "#"} Log In
+      / Main
+      %article#main
+        %header
+          %h2 New Post
+          %p You can create a wonderful article and just post here!
+        %section.wrapper.style5
+          .inner
+            %section
+              %h4 Form
+              %form{:action => "#", :method => "post"}
+                .row.gtr-uniform
+                  .col-6.col-12-xsmall
+                    %input#demo-name{:name => "demo-name", :placeholder => "Name", :type => "text", :value => ""}/
+                  .col-6.col-12-xsmall
+                    %input#demo-email{:name => "demo-email", :placeholder => "Email", :type => "email", :value => ""}/
+                  .col-12
+                    %select#demo-category{:name => "demo-category"}
+                      %option{:value => ""} - Category -
+                      %option{:value => "1"} Manufacturing
+                      %option{:value => "1"} Shipping
+                      %option{:value => "1"} Administration
+                      %option{:value => "1"} Human Resources
+                  .col-4.col-12-small
+                    %input#demo-priority-low{:checked => "checked", :name => "demo-priority", :type => "radio"}/
+                    %label{:for => "demo-priority-low"} Low
+                  .col-4.col-12-small
+                    %input#demo-priority-normal{:name => "demo-priority", :type => "radio"}/
+                    %label{:for => "demo-priority-normal"} Normal
+                  .col-4.col-12-small
+                    %input#demo-priority-high{:name => "demo-priority", :type => "radio"}/
+                    %label{:for => "demo-priority-high"} High
+                  .col-6.col-12-small
+                    %input#demo-copy{:name => "demo-copy", :type => "checkbox"}/
+                    %label{:for => "demo-copy"} Email me a copy
+                  .col-6.col-12-small
+                    %input#demo-human{:checked => "checked", :name => "demo-human", :type => "checkbox"}/
+                    %label{:for => "demo-human"} Not a robot
+                  .col-12
+                    %textarea#demo-message{:name => "demo-message", :placeholder => "Enter your message", :rows => "6"}
+                  .col-12
+                    %ul.actions
+                      %li
+                        %input.primary{:type => "submit", :value => "Send Message"}/
+                      %li
+                        %input{:type => "reset", :value => "Reset"}/
+
+      / Footer
+      %footer#footer
+        %ul.icons
+          %li
+            %a.icon.brands.fa-twitter{:href => "#"}
+              %span.label Twitter
+          %li
+            %a.icon.brands.fa-facebook-f{:href => "#"}
+              %span.label Facebook
+          %li
+            %a.icon.brands.fa-instagram{:href => "#"}
+              %span.label Instagram
+          %li
+            %a.icon.brands.fa-dribbble{:href => "#"}
+              %span.label Dribbble
+          %li
+            %a.icon.solid.fa-envelope{:href => "#"}
+              %span.label Email
+        %ul.copyright
+          %li © Untitled
+          %li
+            Design:
+            %a{:href => "http://html5up.net"} HTML5 UP
+          %li
+            Distributed by:
+            %a{:href => "https://themewagon.com"} ThemeWagon
+    / Scripts
+    %script{:src => "assets/js/jquery.min.js"}
+    %script{:src => "assets/js/jquery.scrollex.min.js"}
+    %script{:src => "assets/js/jquery.scrolly.min.js"}
+    %script{:src => "assets/js/browser.min.js"}
+    %script{:src => "assets/js/breakpoints.min.js"}
+    %script{:src => "assets/js/util.js"}
+    %script{:src => "assets/js/main.js"}
